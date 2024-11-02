@@ -353,6 +353,9 @@ span{
     margin-left: 1150px;
     padding-bottom: 25px;
     text-shadow: 1px 1px black;
+    position: relative;
+    top: -35px;
+    right: -250px;
 }
 
 /**************************************** CONTACTO.HTML *******************************************************/
