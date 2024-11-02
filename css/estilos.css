@@ -10,8 +10,8 @@ html,body{
 /*********************************FUENTES*************************************************************/
 
 @font-face{
-    font-family: "Nosifer";
-    src: url("../fonts/Nosifer-Regular.ttf");
+    font-family: "Galindo";
+    src: url("../fonts/Galindo-Regular.ttf");
 }
 
 @font-face{
@@ -115,9 +115,9 @@ h4{
     padding-top: 50px;
 }
 p{
-    font-size: 1.8rem;
+    font-size: 1.4rem;
     letter-spacing: 1px;
-    font-family: "comic sans";
+    font-family: "Galindo";
     padding: 20px;
     padding-left: 90px;
     padding-right: 90px;
@@ -126,8 +126,8 @@ p{
 
 .p_ubi{
     text-decoration: underline;
-    font-size: 1.7rem;
-    font-family: "jersey";
+    font-size: 1.4rem;
+    font-family: "Galindo";
     padding: 20px;
     text-indent: 40px;
 }
