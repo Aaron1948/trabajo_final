@@ -1,13 +1,12 @@
 /********************************* CUERPO Y HTML ***************************************************/ 
 
-html,body{
+html, body{
     margin: 0 auto;
-    height: auto;
-    width: auto;
     background: linear-gradient(to bottom, white, rgb(240, 201, 28));
+    
 }
 
-/********************************* FUENTES *************************************************************/
+/*********************************FUENTES*************************************************************/
 
 @font-face{
     font-family: "Galindo";
@@ -108,12 +107,13 @@ h3{
 h4{
     text-align: center;
     font-family: "jersey";
-    font-size: 1.6rem;
+    font-size: 1.5rem;
     font-weight: 170;
     text-transform: uppercase;
     letter-spacing: 0.3rem;
     padding-top: 50px;
 }
+
 p{
     font-size: 1.4rem;
     letter-spacing: 1px;
@@ -128,25 +128,11 @@ p{
     text-decoration: underline;
     font-size: 1.4rem;
     font-family: "Galindo";
-    text-indent: 40px;
     padding-top: 100px;
     padding-bottom: 50px;
+    text-indent: 40px;
 }
 
-.foot{
-    font-size: 20px;
-    font-family: "jersey";
-    text-transform: uppercase;
-    display: inline;
-}
-
-.foot > a{
-    color: rgba(117, 104, 104, 0.815);
-}
-
-.foot > a:hover{
-    color: rgb(5, 9, 250);
-}
 
 .fin_pagina{
     text-align: center;
@@ -160,7 +146,8 @@ p{
     text-decoration: underline;
     font-size: larger;
     font-size: 20px;
-    display: inline;
+    /*display: inline;*/
+    margin-top: 10px;
 }
 
 .foot_link{
@@ -240,14 +227,30 @@ p{
     border: 1px solid black;
     text-align: center;
     background: linear-gradient(to bottom right, white, rgb(197, 184, 2));
-    padding: 30px;
+    padding: 20px 0px 20px 0px;
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     justify-content: center;
 }
 
+.footer img{
+    height: 50px;
+    width: 70px;
+    position: relative;
+    top: -5px;
+    left: -5px;
+}
 
-/*********************************** CONTENEDOR GALERIA ******************************************/
+
+.foot{
+    font-size: 20px;
+    font-family: "jersey";
+    text-transform: uppercase;
+    display: inline;
+}
+
+
+/*********************************** CONTENEDOR GALERIA ********************************************/
 /***************************************************************************************************/
 
 #contenedor_galeria{
@@ -267,73 +270,69 @@ p{
 
 
 
-
 /*************************************** GALERIA PRODUCTOS ****************************************/
 /*************************************************************************************************/
 
 #producto1{
     display: grid;
-    grid-template-columns: 200px 200px 200px;
+    grid-template-columns: 150px 150px 150px;
     grid-template-rows: 0px;
-    grid-gap: 1rem;
+    grid-gap: 4rem;
     padding: 20px;
     justify-content: center;
-    height: 300px;
+    height: 250px;
 }
+
 
 
 #producto2{
     display: grid;
-    grid-template-columns: 200px 200px 200px 200px 200px;
+    grid-template-columns: 150px 150px 150px 150px 150px;
     grid-template-rows: 0px;
-    grid-gap: 1rem;
+    grid-gap: 4rem;
     padding: 40px;
     justify-content: center;
-    height: 300px;
+    height: 250px;
 }
 
 #producto3{
     display: grid;
-    grid-template-columns: 200px 200px 200px 200px 200px;
+    grid-template-columns: 150px 150px 150px 150px 150px;
     grid-template-rows: 0px;
-    grid-gap: 1rem;
+    grid-gap: 4rem;
     padding: 40px;
     justify-content: center;
-    height: 300px;
+    height: 250px;
 }
 
 #producto4{
     display: grid;
-    grid-template-columns: 200px 200px 200px 200px;
+    grid-template-columns: 150px 150px 150px 150px;
     grid-template-rows: 0px;
-    grid-gap: 1rem;
+    grid-gap: 4rem;
     padding: 40px;
     justify-content: center;
-    height: 300px;
+    height: 250px;
 }
 
 #producto5{
     display: grid;
-    grid-template-columns: 200px 200px 200px 200px;
+    grid-template-columns: 150px 150px 150px 150px;
     grid-template-rows: 0px;
-    grid-gap: 1rem;
+    grid-gap: 4rem;
     padding: 40px;
     justify-content: center;
-    height: 300px;
+    height: 250px;
 }
 
 #producto6{
     display: grid;
-    grid-template-columns: 200px 200px 200px 200px 200px;
+    grid-template-columns: 150px 150px 150px 150px 150px;
     grid-template-rows: 0px;
-    grid-gap: 1rem;
+    grid-gap: 4rem;
     padding: 40px;
     justify-content: center;
-    height: 300px;
-}
-
-img{
-    border-radius: 12px;
+    height: 250px;
 }
 
 span{
@@ -359,7 +358,48 @@ span{
     right: -250px;
 }
 
-/**************************************** CONTACTO.BODY *******************************************************/
+/********************************* TAMAÑO PARA LAS FOTOS DE LOS PRODUCTOS ******************************************/
+/*******************************************************************************************************************/
+
+#producto1 > div > img{
+    border-radius: 12px;
+    height: 200px;
+    width: 200px;
+}
+
+#producto2 > div > img{
+    border-radius: 12px;
+    height: 200px;
+    width: 200px;
+}
+
+#producto3 > div > img{
+    border-radius: 12px;
+    height: 200px;
+    width: 200px;
+}
+
+#producto4 > div > img{
+    border-radius: 12px;
+    height: 200px;
+    width: 200px;
+}
+
+#producto5 > div > img{
+    border-radius: 12px;
+    height: 200px;
+    width: 200px;
+}
+
+#producto6 > div > img{
+    border-radius: 12px;
+    height: 200px;
+    width: 200px;
+}
+
+
+
+/**************************************** CONTACTO::BODY *******************************************************/
 /***************************************************************************************************************/
 /***************************************************************************************************************/
 
@@ -370,7 +410,7 @@ span{
 }
 
 
-/************************************ PRESUPUESTO BODY ********************************************************/
+/************************************ PRESUPUESTO BODY **********************************************************/
 /****************************************************************************************************************/
 /****************************************************************************************************************/
 /****************************************************************************************************************/
@@ -379,6 +419,7 @@ span{
     padding-top: 150px;
     padding-bottom: 150px;
 }
+
 
 
 /************************************ FORMULARIO  ***************************************************************/
@@ -455,6 +496,7 @@ span{
     justify-content: space-around;
     margin-left: auto;
     padding: 5px 16px;
+}
 }
 
 
