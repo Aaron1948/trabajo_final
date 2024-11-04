@@ -230,14 +230,16 @@ p{
     display: flex;
     flex-direction: column;
     justify-content: center;
+    height: 150px;
 }
 
 .footer img{
     height: 50px;
     width: 70px;
     position: relative;
-    top: -5px;
+    top: -25px;
     left: -5px;
+    white-space: 100px;
 }
 
 
@@ -246,6 +248,8 @@ p{
     font-family: "jersey";
     text-transform: uppercase;
     display: inline;
+    position: relative;
+    top: 20px;
 }
 
 
